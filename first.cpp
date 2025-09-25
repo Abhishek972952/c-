@@ -92,16 +92,16 @@ int main(){
 //     cout<<"desert";
 // }
 
-// int user;
-// cout<<"enter a user";
-//  cin>>user;
-// switch (user){
-//     case1:cout<<"veg";
-//     case2:cout<<"non veg";
-// }
+int user;
+cout<<"enter a user";
+ cin>>user;
+switch (user){
+    case1:cout<<"veg";
+    case2:cout<<"non veg";
+}
     
 
-// }
+
 
 // disadvatages-
 // position is deafault is no fix
@@ -110,63 +110,63 @@ int main(){
 
     
   //lopp
-// int i=1;
-// while(i<=10);
-// {
-//     cout<<i++;
-// }
+int i=1;
+while(i<=10);
+{
+    cout<<i++;
+}
 
-// for(int i=1; i<=10;++i )
-// {
-//     cout<<"2*"<<i<<"="<<2*i<<endl;
+for(int i=1; i<=10;++i )
+{
+    cout<<"2*"<<i<<"="<<2*i<<endl;
     
 
-// }
+}
 
-// int n1=18;
-// int n2=7;
-// int hcf=0;
-// int lcm=0;
+int n1=18;
+int n2=7;
+int hcf=0;
+int lcm=0;
 
-// for(int i=n1; ;i=i+n1)
-// {
-//     if(i%n1==0 && i%n2==0)
-//     {
-//         cout<<i;
-//         break;
-//     }
-// }
+for(int i=n1; ;i=i+n1)
+{
+    if(i%n1==0 && i%n2==0)
+    {
+        cout<<i;
+        break;
+    }
+}
 
 
 //prime number
 
-// int n=17;
-// int count=0;
-// for(int i=1;i<=n;++i)
-// {
-// if(n%i==0)
-// {
-//     ++count;
-// } 
-//    }
-//    if(count==2)   cout<<"prime";
-//    else cout<<"not prime";
+int n=17;
+int count=0;
+for(int i=1;i<=n;++i)
+{
+if(n%i==0)
+{
+    ++count;
+} 
+   }
+   if(count==2)   cout<<"prime";
+   else cout<<"not prime";
 
 
 //perfact number
 
-// int n=7;
-// int sum=0;
-// for(int i=1;i<n;++i)
-// {
-//     if(n%i==0)
-// {
-// sum=sum+i;
-// }
+int n=7;
+int sum=0;
+for(int i=1;i<n;++i)
+{
+    if(n%i==0)
+{
+sum=sum+i;
+}
 
-// }
+}
 
-// if(sum==n)  cout<<"perfact";
+if(sum==n)  cout<<"perfact";
 
 
 int n=2;
