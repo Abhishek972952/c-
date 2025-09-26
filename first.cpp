@@ -92,13 +92,13 @@ int main(){
 //     cout<<"desert";
 // }
 
-int user;
-cout<<"enter a user";
- cin>>user;
-switch (user){
-    case1:cout<<"veg";
-    case2:cout<<"non veg";
-}
+// int user;
+// cout<<"enter a user";
+//  cin>>user;
+// switch (user){
+//     case1:cout<<"veg";
+//     case2:cout<<"non veg";
+// }
     
 
 
@@ -110,32 +110,32 @@ switch (user){
 
     
   //lopp
-int i=1;
-while(i<=10);
-{
-    cout<<i++;
-}
+// int i=1;
+// while(i<=10);
+// {
+//     cout<<i++;
+// }
 
-for(int i=1; i<=10;++i )
-{
-    cout<<"2*"<<i<<"="<<2*i<<endl;
+// for(int i=1; i<=10;++i )
+// {
+//     cout<<"2*"<<i<<"="<<2*i<<endl;
     
 
-}
+// }
 
-int n1=18;
-int n2=7;
-int hcf=0;
-int lcm=0;
+// int n1=18;
+// int n2=7;
+// int hcf=0;
+// int lcm=0;
 
-for(int i=n1; ;i=i+n1)
-{
-    if(i%n1==0 && i%n2==0)
-    {
-        cout<<i;
-        break;
-    }
-}
+// for(int i=n1; ;i=i+n1)
+// {
+//     if(i%n1==0 && i%n2==0)
+//     {
+//         cout<<i;
+//         break;
+//     }
+// }
 
 
 //prime number
@@ -155,33 +155,66 @@ if(n%i==0)
 
 //perfact number
 
-int n=7;
-int sum=0;
-for(int i=1;i<n;++i)
-{
-    if(n%i==0)
-{
-sum=sum+i;
-}
+// int n=7;
+// int sum=0;
+// for(int i=1;i<n;++i)
+// {
+//     if(n%i==0)
+// {
+// sum=sum+i;
+// }
+
+// }
+
+// if(sum==n)  cout<<"perfact";
+
+
+//pallindrom
+
+// int number=121;
+// int org=number;
+// int rev=0;
+
+// while(number!=0)
+// {
+//   int digit=number%10;
+//   rev=rev*10+digit;
+//   number=number/10;
+// }
+// if(rev==org) cout<<"pallindrom";
+// else cout<<"not pallindrom";
+
+//armstrong number
+
+// int number=153;
+// int org=number;
+// int sum=0;
+
+// while(number!=0)
+// {
+//   int digit=number%10;
+//   sum=sum +digit*digit*digit;
+//   number=number/10;
+// }
+// if(sum==org) cout<<"armstrong";
+// else cout<<"not armstrong";
+
+
+
+
+
+
+
+
+
 
 }
 
-if(sum==n)  cout<<"perfact";
 
 
-int n=2;
-int power=3;
-int ans=0;
-
-for(int i=1;i<power;++i)
-{
-  ans=ans*n;
-}
-
-cout<<ans;
 
 
-}
+
 
   
   
