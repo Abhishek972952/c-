@@ -199,40 +199,56 @@ int main(){
 // if(sum==org) cout<<"armstrong";
 // else cout<<"not armstrong";
 
-int temp;
-cout<<"temprature in centigrate";
-cin>>temp;
+// int temp;
+// cout<<"temprature in centigrate";
+// cin>>temp;
 
 
-if(temp<0)
-{
-    cout<<"frezing weather"<< endl;
-}
+// if(temp<0)
+// {
+//     cout<<"frezing weather"<< endl;
+// }
 
-else if(temp>=0 && temp<10)
-{
-    cout<<"very cold weather"<<endl;
-}
+// else if(temp>=0 && temp<10)
+// {
+//     cout<<"very cold weather"<<endl;
+// }
 
-else if(temp>=10 && temp<20)
-{
-   cout<<"cold weather"<<endl;
-}
+// else if(temp>=10 && temp<20)
+// {
+//    cout<<"cold weather"<<endl;
+// }
 
-else if(temp>=20 && temp<30)
-{
-    cout<<"the normal temp"<<endl;
-}
+// else if(temp>=20 && temp<30)
+// {
+//     cout<<"the normal temp"<<endl;
+// }
 
-else if(temp>=30 && temp<40)
-{
-    cout<<"then its hot"<<endl;
-}
+// else if(temp>=30 && temp<40)
+// {
+//     cout<<"then its hot"<<endl;
+// }
 
-else{
-    cout<<"then its very hot"<<endl;
-}
+// else{
+//     cout<<"then its very hot"<<endl;
+// }
     
+int num,firstdigit,lastdigit,sum;
+
+cout<<"enter a number";
+cin>>num;
+
+lastdigit=num%10;
+int a=num;
+while(a>=10)
+{
+    a=a/10;
+}
+
+firstdigit=a;
+sum=firstdigit+lastdigit;
+
+cout<<"the sum of firat and last digit"<<sum<<endl;
 
 
 
