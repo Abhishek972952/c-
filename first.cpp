@@ -250,18 +250,29 @@ int main(){
 
 // cout<<"the sum of firat and last digit"<<sum<<endl;
 
-char ch;
-cout<<"enter a  char";
-cin>>ch;
+// char ch;
+// cout<<"enter a  char";
+// cin>>ch;
 
-if(ch >=65 && ch <=90)
+// if(ch >=65 && ch <=90)
+// {
+//     cout<<"caseupper ";
+// }
+
+// else{
+//     cout<<"lower case";
+// }
+int n =50;
+int count=1;
+
+while(count <=n)
 {
-    cout<<"caseupper ";
+    cout<<count<<" ";
+    count ++;
+
 }
 
-else{
-    cout<<"lower case";
-}
+
 
 
 
