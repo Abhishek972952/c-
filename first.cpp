@@ -233,28 +233,35 @@ int main(){
 //     cout<<"then its very hot"<<endl;
 // }
     
-int num,firstdigit,lastdigit,sum;
+// int num,firstdigit,lastdigit,sum;
 
-cout<<"enter a number";
-cin>>num;
+// cout<<"enter a number";
+// cin>>num;
 
-lastdigit=num%10;
-int a=num;
-while(a>=10)
+// lastdigit=num%10;
+// int a=num;
+// while(a>=10)
+// {
+//     a=a/10;
+// }
+
+// firstdigit=a;
+// sum=firstdigit+lastdigit;
+
+// cout<<"the sum of firat and last digit"<<sum<<endl;
+
+char ch;
+cout<<"enter a  char";
+cin>>ch;
+
+if(ch >=65 && ch <=90)
 {
-    a=a/10;
+    cout<<"caseupper ";
 }
 
-firstdigit=a;
-sum=firstdigit+lastdigit;
-
-cout<<"the sum of firat and last digit"<<sum<<endl;
-
-
-
-
-
-
+else{
+    cout<<"lower case";
+}
 
 
 
